@@ -1,0 +1,50 @@
+.card{
+    background-color:lightgray;
+    width: 100%;
+    height:40%;
+    display: flex;
+    flex-direction: row;
+    overflow:scroll;
+    overflow-y: hidden;
+    padding-bottom: 10px;
+   
+}
+.main-card{
+    overflow-x: scroll;
+
+}
+.card-img2{
+    object-fit:contain;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -6px;
+    margin-right: 10px;
+    margin-left: -6px;
+}
+.card-imgcontent{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    /* margin: 10px; */
+
+}
+.card-div{
+    background-color: rgb(241, 233, 233);
+    padding: 10px;
+}
+
+.card1::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+
+  .button_addcart{
+      border: 1px solid black;
+      background-color: #000;
+      color: wheat;
+  }

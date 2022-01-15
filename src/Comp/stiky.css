@@ -1,0 +1,16 @@
+@media (max-width:390px) {
+    .stiky-bar{
+        position:fixed;
+        z-index: 1000;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        bottom: 0;
+
+
+    }
+    .button2{
+        margin-left: 20px;
+    }
+
+    
+ }
